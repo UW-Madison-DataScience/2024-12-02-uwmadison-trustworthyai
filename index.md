@@ -92,7 +92,6 @@ INTRODUCTION
 
 Edit the general explanatory paragraph below if you want to change
 the pitch.
-
 {% endcomment %}
 
 <p>
@@ -114,8 +113,6 @@ Sign up to receive future editions and read our full archive: <a href="https://c
 {% elsif site.carpentry == "lc" %}
 {% include lc/intro.html %}
 {% endif %}
-
-{% comment %}
 
 {% if site.pilot %}
 This is a pilot workshop, testing out a lesson that is still under development. The lesson authors would appreciate any feedback you can give them about the lesson content and suggestions for how it could be further improved.
@@ -273,6 +270,7 @@ Display the contact email address set in the configuration file.
   To learn more about the roles at the workshop (who will be doing what),
   refer to <a href="https://carpentries.org/workshop_faq/#what-are-the-roles-of-everyone-participating-in-a-workshop">our Workshop FAQ</a>.
 </p>
+{% comment %}
 
 WHO CAN ATTEND?
 
