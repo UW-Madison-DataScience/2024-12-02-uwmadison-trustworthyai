@@ -106,7 +106,7 @@ skills to researchers.
 Sign up to receive future editions and read our full archive: <a href="https://carpentries.org/newsletter/">https://carpentries.org/newsletter/</a>
   </em>
 </p>
-{% if site.carpentry == "none" %}
+{% if site.carpentry == "incubator" %}
 {% include swc/intro.html %}
 {% elsif site.carpentry == "dc" %}
 {% include dc/intro.html %}
