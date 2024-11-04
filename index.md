@@ -124,7 +124,7 @@ AUDIENCE
 Explain who your audience is.  (In particular, tell readers if the
 workshop is only open to people from a particular institution.
 {% endcomment %}
-{% if site.carpentry == "none" %}
+{% if site.carpentry == "incubator" %}
 {% include swc/who.html %}
 {% elsif site.carpentry == "dc" %}
 {% include dc/who.html %}
@@ -359,7 +359,7 @@ of code below the Schedule `<h2>` header below with
 
 <h2 id="schedule">Schedule</h2>
 
-{% if site.carpentry == "none" %}
+{% if site.carpentry == "incubator" %}
 {% include swc/schedule.html %}
 {% elsif site.carpentry == "dc" %}
 {% include dc/schedule.html %}
@@ -399,7 +399,7 @@ please preview your site before committing, and make sure to run
 
 <p>
   To participate in
-  {% if site.carpentry == "none" %}
+  {% if site.carpentry == "incubator" %}
   the
   {% elsif site.carpentry == "dc" %}
   Data Carpentry
@@ -435,7 +435,7 @@ These are the installation instructions for the tools used
 during the workshop.
 {% endcomment %}
 
-{% if site.carpentry == "none" %}
+{% if site.carpentry == "incubator" %}
 {% include swc/setup.html %}
 {% elsif site.carpentry == "dc" %}
 {% include dc/setup.html %}
