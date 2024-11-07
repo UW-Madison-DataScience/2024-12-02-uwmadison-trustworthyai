@@ -84,6 +84,9 @@ displayed if the 'eventbrite' field in the header is not set.
 </iframe>
 {% endif %}
 
+<h2 id="register">Registration</h2>
+
+If the above EventBrite integration doesn't work, try visiting this [link to register](https://www.eventbrite.com/e/trustworthy-ai-tickets-1070926964379?aff=oddtdtcreator). 
 
 <h2 id="general">General Information</h2>
 
