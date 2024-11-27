@@ -20,7 +20,6 @@ collaborative_notes: https://pad.carpentries.org/2024-12-02-uwmadison-trustworth
 eventbrite: 1070926964379          # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
 what3words:           # optional: what3words (https://what3words.com) address of the workshop venue, without leading slashes e.g. "globe.lessening.computers"
 ---
-https://pad.carpentries.org/2024-12-02-uwmadison-trustworthy-ai
 {% comment %} See instructions in the comments below for how to edit specific sections of this workshop template. {% endcomment %}
 
 {% comment %}
